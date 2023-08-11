@@ -3,7 +3,7 @@ body{
 }
 .background{
     
-    width: 100%;
+    width: 100vw;
     height: 200vh;
     display: flex;
     flex-direction: row;
@@ -110,10 +110,7 @@ button{
     width: 200px;
     text-align: center;
 }
-.arrow{
-    
-    
-}
+
 .previous{
     height: 50px;
     position: absolute;
@@ -127,23 +124,57 @@ button{
     right: 6%;
 }
 .about{
-    position: absolute;
+     position: absolute; 
     display: flex;
+    flex-direction: row;
     top: 700px;
-    left: 130px;
+    left: 110px;
     background-color: rgb(215, 206, 188);
     color: black;
-    width: 70%;
+    width: 80%;
     height: 400px;
+    margin: 20px;
     
 }
-.hero{
+/* .hero{
     /* position: absolute;
     left: 700px;
     margin: 30px;
     height: 350px; */
-    position: relative;
+    /* position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 100px; */
+/* } */ 
+.Story{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    position: absolute; */
+    background-color: lightblue;
+    padding: 20px;
+            margin: 10px;
+}
+.aboutus{
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: rgb(213, 213, 142);
+    padding: 20px;
+    margin: 10px;
+}
+.hero{
+    padding: 20px;
+    margin: 10px;
+    height: 350px ;
+}
+.footer {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    position: absolute;
+    top: 200vh;
+    border-top:solid white ;
+
 }
