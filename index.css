@@ -4,23 +4,23 @@ body{
 .background{
     
     width: 100vw;
-    height: 200vh;
+    height: 300vh;
     display: flex;
     flex-direction: row;
 }
 .left{
 background-color:rgb(94, 117, 94);
+height: 300vh;
+width: 50vw;
 /* float: left; */
 
 
-width:50%;
-height: 200vh;
 }
 .right{
 background-color:  rgb(130, 114, 66);
 /* float: right; */
-width:50%;
-height: 200vh;
+width:50vw;
+height: 300vh;
 }
 .header{
     
@@ -127,11 +127,11 @@ button{
      position: absolute; 
     display: flex;
     flex-direction: row;
-    top: 700px;
+    top: 200vh;
     left: 110px;
     background-color: rgb(215, 206, 188);
     color: black;
-    width: 80%;
+    width: 85vw;
     height: 400px;
     margin: 20px;
     
@@ -153,6 +153,7 @@ button{
     position: absolute; */
     background-color: lightblue;
     padding: 20px;
+    font-size: larger;
             margin: 10px;
 }
 .aboutus{
@@ -161,6 +162,7 @@ button{
     background-color: rgb(213, 213, 142);
     padding: 20px;
     margin: 10px;
+    font-size: larger;
 }
 .hero{
     padding: 20px;
@@ -169,12 +171,54 @@ button{
 }
 .footer {
     background-color: gray;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     color: white;
     width: 100vw;
     position: absolute;
-    top: 200vh;
+    top: 300vh;
     border-top:solid white ;
 
+}
+.clothes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1400px;
+    position: absolute;
+    top: 120vh;
+    left: 120px;
+
+
+}
+
+.clothes-item {
+    background-color: rgb(255, 247, 247);
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(20% - 30px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.clothes-item:hover {
+    transform: scale(1.05);
+}
+
+.clothes-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.clothes-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.clothes-price {
+    color: #ff5722;
+    font-weight: bold;
 }
