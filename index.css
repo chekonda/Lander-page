@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body{
     margin:0;
 }
@@ -128,13 +131,16 @@ button{
     display: flex;
     flex-direction: row;
     top: 200vh;
-    left: 110px;
-    background-color: rgb(215, 206, 188);
+    left: 60px;
+    /* background-color: rgb(215, 206, 188); */
+    background-color: rgb(173, 230, 187);;
     color: black;
-    width: 85vw;
+    width: 88vw;
     height: 400px;
     margin: 20px;
+    border: solid rgb(7, 62, 7)  10px;
     
+    opacity: 0.9;
 }
 /* .hero{
     /* position: absolute;
@@ -151,18 +157,21 @@ button{
     flex-wrap: wrap;
     flex-direction: column-reverse;
     position: absolute; */
-    background-color: lightblue;
+    background-color:white;
     padding: 20px;
     font-size: larger;
-            margin: 10px;
+    margin: 30px;
 }
 .aboutus{
     /* display: flex;
     flex-wrap: wrap; */
-    background-color: rgb(213, 213, 142);
+    /* background-color: rgb(213, 213, 142); */
+    background-color: white;
     padding: 20px;
-    margin: 10px;
+    margin: 30px;
     font-size: larger;
+
+
 }
 .hero{
     padding: 20px;
@@ -170,13 +179,13 @@ button{
     height: 350px ;
 }
 .footer {
-    background-color: gray;
+    background-color: rgb(33, 60, 33);
     padding: 20px 0;
     text-align: center;
     color: white;
     width: 100vw;
     position: absolute;
-    top: 300vh;
+    top: 290vh;
     border-top:solid white ;
 
 }
@@ -189,7 +198,7 @@ button{
     max-width: 1400px;
     position: absolute;
     top: 120vh;
-    left: 120px;
+    left: 50px;
 
 
 }
@@ -221,4 +230,20 @@ button{
 .clothes-price {
     color: #ff5722;
     font-weight: bold;
+}
+.Exclusive{
+    background-color: rgb(7, 62, 7);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top:105vh;
+    height: 7vh;
+   
+    align-content: center;
+    width:100vw ;
+    text-align: center;
+    opacity: 0.9;
+    font-family:Dancing Script;
+    font-size: 35px;
+    padding-top: 4vh;
+    
 }
